@@ -145,65 +145,7 @@ FarmStack leverages curated NASA Earth Science missions and products:
 
 ---
 
-## 🚀 Getting Started
 
-### Prerequisites
-
-- [Node.js](https://nodejs.org/) (v18+ recommended)
-- [Python](https://www.python.org/) (3.10+ recommended)
-- [Git](https://git-scm.com/)
-- *(Optional)* Free [NASA Earthdata Login](https://urs.earthdata.nasa.gov/) account for expanded satellite data access.
-
-### Installation
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/<your-username>/Farmstack.git
-   cd Farmstack
-   ```
-
-2. **Backend Setup:**
-   ```bash
-   cd backend
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   pip install -r requirements.txt
-   ```
-
-3. **Frontend Setup:**
-   ```bash
-   cd ../frontend
-   npm install
-   ```
-
-### Environment Variables
-
-Create a `.env` file in the `backend/` directory:
-
-```env
-PORT=8000
-NASA_EARTHDATA_USERNAME=your_username
-NASA_EARTHDATA_PASSWORD=your_password
-NASA_POWER_API_URL=https://power.larc.nasa.gov/api/temporal/daily/point
-```
-
-### Running the Application
-
-1. **Start Backend Server:**
-   ```bash
-   # From /backend
-   uvicorn main:app --reload --port 8000
-   ```
-
-2. **Start Frontend:**
-   ```bash
-   # From /frontend
-   npm run dev
-   ```
-
-3. Open your browser and navigate to `http://localhost:5173` (or the URL displayed in your terminal).
-
----
 
 ## 📋 User Workflow
 
