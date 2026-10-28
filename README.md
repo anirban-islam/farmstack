@@ -172,18 +172,6 @@ FarmStack leverages curated NASA Earth Science missions and products:
 
 ---
 
-## 👥 Team & Contributions
-
-Developed for the **2026 NASA Space Apps Challenge** by **Team FarmStack**:
-
-| Name | Role | Responsibilities |
-| :--- | :--- | :--- |
-| **[Member Name]** | Team Lead / Software Engineer | Architecture & Full-stack Development |
-| **[Member Name]** | Earth Observation / Data Specialist | NASA Datasets Integration & Modeling |
-| **[Member Name]** | Agronomy & Research | Crop profiles & Soil Health Index formulation |
-| **[Member Name]** | UI/UX & Multimedia | Dashboard Design, Data Visualizations & Storytelling |
-
----
 
 ## 🙏 Acknowledgments
 
